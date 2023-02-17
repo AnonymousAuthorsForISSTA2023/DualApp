@@ -91,7 +91,7 @@ To obtain the results in Figure 9, run:
 ```
 python main_figure_9.py
 ```
-Then, record the certified lower bounds and time in each experiment and write them to **draw_figure_9/draw.py** to draw images. The example datas are given in **draw_figure_9/**. 
+Then, record the certified lower bounds and time in each experiment and write them to **draw_figure_9/draw.py** to draw images. The example datas are given in **draw_figure_9/draw.py**. 
 
 To obtain the results in Figure 10, run:
 ```
