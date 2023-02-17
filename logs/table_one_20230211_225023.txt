@@ -1,0 +1,19 @@
+=========================================
+example0_sigmoid.h5
+Weights:
+###########
+layer1.weight: <tf.Variable 'dense/kernel:0' shape=(2, 2) dtype=float32, numpy=
+array([[ 2.354846 ,  1.8386669],
+       [ 5.898676 , -3.816135 ]], dtype=float32)>
+###########
+layer1.bias: <tf.Variable 'dense/bias:0' shape=(2,) dtype=float32, numpy=array([0., 0.], dtype=float32)>
+###########
+layer2.weight: <tf.Variable 'dense_1/kernel:0' shape=(2, 2) dtype=float32, numpy=
+array([[ 5.503974 , -6.412034 ],
+       [ 9.348206 , -0.9069967]], dtype=float32)>
+###########
+layer2.bias: <tf.Variable 'dense_1/bias:0' shape=(2,) dtype=float32, numpy=array([0., 0.], dtype=float32)>
+###########
+layer3.weight: <tf.Variable 'dense_2/kernel:0' shape=(2, 2) dtype=float32, numpy=
+array([[-1.1067177 ,  0.9019402 ],
+       [-0.05753255,  0.76739395]], dtype=float32)>

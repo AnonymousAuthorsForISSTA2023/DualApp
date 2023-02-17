@@ -1,0 +1,42 @@
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x100_sigmoid_local.h5
+sampling total time: 358.7078046798706, GD total time: 0, len_inputs: 98
+[L0] method = guided_by_endpoint-sigmoid, total images = 98, avg robustness = 0.02526, avg verify runtime = 0.04, avg sample runtime = 3.66, avg GD runtime = 0.00, sample num = 1000, step = 15
+[L0] method = guided_by_endpoint-sigmoid, robustness: mean = 0.02526, std = 0.00684, var = 0.00005, max = 0.04603, min = 0.00827
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x150_sigmoid_local.h5
+sampling total time: 541.627833366394, GD total time: 0, len_inputs: 97
+[L0] method = guided_by_endpoint-sigmoid, total images = 97, avg robustness = 0.02942, avg verify runtime = 0.05, avg sample runtime = 5.58, avg GD runtime = 0.00, sample num = 1000, step = 15
+[L0] method = guided_by_endpoint-sigmoid, robustness: mean = 0.02942, std = 0.00868, var = 0.00008, max = 0.05393, min = 0.00978
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x200_sigmoid_local.h5
+sampling total time: 690.5277681350708, GD total time: 0, len_inputs: 98
+[L0] method = guided_by_endpoint-sigmoid, total images = 98, avg robustness = 0.02851, avg verify runtime = 0.07, avg sample runtime = 7.05, avg GD runtime = 0.00, sample num = 1000, step = 15
+[L0] method = guided_by_endpoint-sigmoid, robustness: mean = 0.02851, std = 0.00810, var = 0.00007, max = 0.05210, min = 0.01206
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x250_sigmoid_local.h5
+sampling total time: 835.3608980178833, GD total time: 0, len_inputs: 98
+[L0] method = guided_by_endpoint-sigmoid, total images = 98, avg robustness = 0.02814, avg verify runtime = 0.08, avg sample runtime = 8.52, avg GD runtime = 0.00, sample num = 1000, step = 15
+[L0] method = guided_by_endpoint-sigmoid, robustness: mean = 0.02814, std = 0.00815, var = 0.00007, max = 0.04899, min = 0.01278
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x100_sigmoid_local.h5
+sampling total time: 0, GD total time: 85.5313012599945, len_inputs: 98
+[L0] method = gradient_descent-sigmoid, total images = 98, avg robustness = 0.02543, avg verify runtime = 0.04, avg sample runtime = 0.00, avg GD runtime = 0.87, sample num = 0, step = 15
+[L0] method = gradient_descent-sigmoid, robustness: mean = 0.02543, std = 0.00691, var = 0.00005, max = 0.04670, min = 0.00831
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x150_sigmoid_local.h5
+sampling total time: 0, GD total time: 173.79615831375122, len_inputs: 97
+[L0] method = gradient_descent-sigmoid, total images = 97, avg robustness = 0.02959, avg verify runtime = 0.05, avg sample runtime = 0.00, avg GD runtime = 1.79, sample num = 0, step = 15
+[L0] method = gradient_descent-sigmoid, robustness: mean = 0.02959, std = 0.00874, var = 0.00008, max = 0.05445, min = 0.00982
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x200_sigmoid_local.h5
+sampling total time: 0, GD total time: 296.3840811252594, len_inputs: 98
+[L0] method = gradient_descent-sigmoid, total images = 98, avg robustness = 0.02866, avg verify runtime = 0.06, avg sample runtime = 0.00, avg GD runtime = 3.02, sample num = 0, step = 15
+[L0] method = gradient_descent-sigmoid, robustness: mean = 0.02866, std = 0.00815, var = 0.00007, max = 0.05239, min = 0.01211
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x250_sigmoid_local.h5
+sampling total time: 0, GD total time: 530.1027822494507, len_inputs: 98
+[L0] method = gradient_descent-sigmoid, total images = 98, avg robustness = 0.02828, avg verify runtime = 0.10, avg sample runtime = 0.00, avg GD runtime = 5.41, sample num = 0, step = 15
+[L0] method = gradient_descent-sigmoid, robustness: mean = 0.02828, std = 0.00821, var = 0.00007, max = 0.04945, min = 0.01283
+===========================================
+model name = pretrained_model/fig8/fashion_mnist_fnn_1x100_sigmoid_local.h5

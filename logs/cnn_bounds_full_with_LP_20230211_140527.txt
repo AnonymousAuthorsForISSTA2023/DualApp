@@ -1,0 +1,64 @@
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x100_sigmoid_local.h5
+[L0] method = guided_by_endpoint-sigmoid, total images = 98, avg robustness = 0.02526, avg verify runtime = 0.05, avg sample runtime = 4.35, avg GD runtime = 0.00, sample num = 1000, step = 15
+[L0] method = guided_by_endpoint-sigmoid, robustness: mean = 0.02526, std = 0.00684, var = 0.00005, max = 0.04603, min = 0.00827
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x150_sigmoid_local.h5
+[L0] method = guided_by_endpoint-sigmoid, total images = 97, avg robustness = 0.02942, avg verify runtime = 0.07, avg sample runtime = 6.24, avg GD runtime = 0.00, sample num = 1000, step = 15
+[L0] method = guided_by_endpoint-sigmoid, robustness: mean = 0.02942, std = 0.00868, var = 0.00008, max = 0.05393, min = 0.00978
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x200_sigmoid_local.h5
+[L0] method = guided_by_endpoint-sigmoid, total images = 98, avg robustness = 0.02851, avg verify runtime = 0.08, avg sample runtime = 7.85, avg GD runtime = 0.00, sample num = 1000, step = 15
+[L0] method = guided_by_endpoint-sigmoid, robustness: mean = 0.02851, std = 0.00810, var = 0.00007, max = 0.05210, min = 0.01206
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x250_sigmoid_local.h5
+[L0] method = guided_by_endpoint-sigmoid, total images = 98, avg robustness = 0.02814, avg verify runtime = 0.09, avg sample runtime = 9.62, avg GD runtime = 0.00, sample num = 1000, step = 15
+[L0] method = guided_by_endpoint-sigmoid, robustness: mean = 0.02814, std = 0.00815, var = 0.00007, max = 0.04899, min = 0.01278
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x100_sigmoid_local.h5
+[L0] method = gradient_descent-sigmoid, total images = 98, avg robustness = 0.02543, avg verify runtime = 0.04, avg sample runtime = 0.00, avg GD runtime = 1.00, sample num = 0, step = 15
+[L0] method = gradient_descent-sigmoid, robustness: mean = 0.02543, std = 0.00691, var = 0.00005, max = 0.04670, min = 0.00831
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x150_sigmoid_local.h5
+[L0] method = gradient_descent-sigmoid, total images = 97, avg robustness = 0.02959, avg verify runtime = 0.06, avg sample runtime = 0.00, avg GD runtime = 2.02, sample num = 0, step = 15
+[L0] method = gradient_descent-sigmoid, robustness: mean = 0.02959, std = 0.00874, var = 0.00008, max = 0.05445, min = 0.00982
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x200_sigmoid_local.h5
+[L0] method = gradient_descent-sigmoid, total images = 98, avg robustness = 0.02866, avg verify runtime = 0.07, avg sample runtime = 0.00, avg GD runtime = 3.38, sample num = 0, step = 15
+[L0] method = gradient_descent-sigmoid, robustness: mean = 0.02866, std = 0.00815, var = 0.00007, max = 0.05239, min = 0.01211
+===========================================
+model name = pretrained_model/fig8/mnist_fnn_1x250_sigmoid_local.h5
+[L0] method = gradient_descent-sigmoid, total images = 98, avg robustness = 0.02828, avg verify runtime = 0.09, avg sample runtime = 0.00, avg GD runtime = 5.22, sample num = 0, step = 15
+[L0] method = gradient_descent-sigmoid, robustness: mean = 0.02828, std = 0.00821, var = 0.00007, max = 0.04945, min = 0.01283
+===========================================
+model name = pretrained_model/fig8/fashion_mnist_fnn_1x100_sigmoid_local.h5
+[L0] method = guided_by_endpoint-sigmoid, total images = 88, avg robustness = 0.03379, avg verify runtime = 0.04, avg sample runtime = 4.03, avg GD runtime = 0.00, sample num = 1000, step = 15
+[L0] method = guided_by_endpoint-sigmoid, robustness: mean = 0.03379, std = 0.01252, var = 0.00016, max = 0.06467, min = 0.00565
+===========================================
+model name = pretrained_model/fig8/fashion_mnist_fnn_1x150_sigmoid_local.h5
+[L0] method = guided_by_endpoint-sigmoid, total images = 87, avg robustness = 0.03801, avg verify runtime = 0.06, avg sample runtime = 6.09, avg GD runtime = 0.00, sample num = 1000, step = 15
+[L0] method = guided_by_endpoint-sigmoid, robustness: mean = 0.03801, std = 0.01244, var = 0.00015, max = 0.06719, min = 0.01697
+===========================================
+model name = pretrained_model/fig8/fashion_mnist_fnn_1x200_sigmoid_local.h5
+[L0] method = guided_by_endpoint-sigmoid, total images = 88, avg robustness = 0.03832, avg verify runtime = 0.08, avg sample runtime = 8.13, avg GD runtime = 0.00, sample num = 1000, step = 15
+[L0] method = guided_by_endpoint-sigmoid, robustness: mean = 0.03832, std = 0.01342, var = 0.00018, max = 0.07316, min = 0.00770
+===========================================
+model name = pretrained_model/fig8/fashion_mnist_fnn_1x250_sigmoid_local.h5
+[L0] method = guided_by_endpoint-sigmoid, total images = 88, avg robustness = 0.03894, avg verify runtime = 0.10, avg sample runtime = 10.00, avg GD runtime = 0.00, sample num = 1000, step = 15
+[L0] method = guided_by_endpoint-sigmoid, robustness: mean = 0.03894, std = 0.01297, var = 0.00017, max = 0.07153, min = 0.00817
+===========================================
+model name = pretrained_model/fig8/fashion_mnist_fnn_1x100_sigmoid_local.h5
+[L0] method = gradient_descent-sigmoid, total images = 88, avg robustness = 0.03398, avg verify runtime = 0.05, avg sample runtime = 0.00, avg GD runtime = 1.04, sample num = 0, step = 15
+[L0] method = gradient_descent-sigmoid, robustness: mean = 0.03398, std = 0.01258, var = 0.00016, max = 0.06508, min = 0.00567
+===========================================
+model name = pretrained_model/fig8/fashion_mnist_fnn_1x150_sigmoid_local.h5
+[L0] method = gradient_descent-sigmoid, total images = 87, avg robustness = 0.03817, avg verify runtime = 0.07, avg sample runtime = 0.00, avg GD runtime = 2.14, sample num = 0, step = 15
+[L0] method = gradient_descent-sigmoid, robustness: mean = 0.03817, std = 0.01248, var = 0.00016, max = 0.06737, min = 0.01703
+===========================================
+model name = pretrained_model/fig8/fashion_mnist_fnn_1x200_sigmoid_local.h5
+[L0] method = gradient_descent-sigmoid, total images = 88, avg robustness = 0.03847, avg verify runtime = 0.09, avg sample runtime = 0.00, avg GD runtime = 3.63, sample num = 0, step = 15
+[L0] method = gradient_descent-sigmoid, robustness: mean = 0.03847, std = 0.01349, var = 0.00018, max = 0.07346, min = 0.00771
+===========================================
+model name = pretrained_model/fig8/fashion_mnist_fnn_1x250_sigmoid_local.h5
+[L0] method = gradient_descent-sigmoid, total images = 88, avg robustness = 0.03910, avg verify runtime = 0.10, avg sample runtime = 0.00, avg GD runtime = 5.41, sample num = 0, step = 15
+[L0] method = gradient_descent-sigmoid, robustness: mean = 0.03910, std = 0.01305, var = 0.00017, max = 0.07176, min = 0.00818
