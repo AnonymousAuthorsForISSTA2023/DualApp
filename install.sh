@@ -16,8 +16,8 @@ sudo ln -s /usr/local/src/python37/bin/pip3.7 /usr/bin/pip3.7
 cd ../
 
 sudo apt-get install python-virtualenv
-virtualenv -p python3.7 venv
-source venv/bin/activate
+virtualenv -p python3.7 dualapp
+source dualapp/bin/activate
 pip install -r requirements.txt
 
 python modify_file.py
